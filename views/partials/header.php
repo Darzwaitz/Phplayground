@@ -1,0 +1,3 @@
+<header>
+    <?= $heading ?> page
+</header>

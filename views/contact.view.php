@@ -2,6 +2,8 @@
 
 <?php require('partials/nav.php') ?>
 
+<?php require('partials/header.php') ?>
+
 
 <main>
     <h1>Contact page</h1>

@@ -2,9 +2,11 @@
 
 <?php require('partials/nav.php') ?>
 
+<?php require('partials/header.php') ?>
+
 <main>
   <p class="">
-  <h1>Home page</h1>
+  <h1>Homezzz page</h1>
   </p>
 </main>
 
