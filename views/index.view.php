@@ -6,7 +6,7 @@
 
 <main>
   <p class="">
-  <h1>Homezzz page</h1>
+  <h1>Homez page</h1>
   </p>
 </main>
 
