@@ -4,17 +4,29 @@ require 'functions.php';
 
 require 'router.php';
 
-// connect to sql db using PDO
+// connect to sql db using PDO and execute a query
 
-$dsn = "mysql:host=localhost;port=3306;user=root;dbname=phplayground;charset=utf8mb4";
+class Database
+{
+    public function query($query)
+    {
+        $dsn = "mysql:host=localhost;port=3306;user=root;dbname=phplayground;charset=utf8mb4";
 
-$pdo = new PDO($dsn);
+        $pdo = new PDO($dsn);
 
-$statement = $pdo->prepare("SELECT * FROM `posts`");
+        $statement = $pdo->prepare($query);
 
-$statement->execute();
+        $statement->execute();
 
-$posts = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $statement->fetchAll(PDO::FETCH_ASSOC);
+    }
+}
+
+$db = new Database();
+
+$posts = $db->query("SELECT * FROM `posts`");
+
+
 
 // dd($posts);
 
