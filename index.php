@@ -10,14 +10,19 @@ $config = require('config.php');
 
 $db = new Database($config['database']);
 
-$id = $_GET['id'];
-$query = "SELECT * FROM `posts` where id = :id";
+if ($_GET) {
 
-// :: is scope resolution operator
-$posts = $db->query($query, [':id' => $id])->fetch();
+    $id = $_GET['id'];
+    $query = "SELECT * FROM `posts` where id = :id";
 
-// dd($posts);
+    // :: is scope resolution operator
+    $posts = $db->query($query, [':id' => $id])->fetchAll();
 
-foreach ($posts as $post) {
-    echo "<li>" . $post['title'] . "</li>";
+    // dd($posts);
+
+    foreach ($posts as $post) {
+        echo "<li>" . $post['title'] . "</li>";
+    }
+} else {
+    echo "<li>" . 'No posts available from query' . "</li>";
 }
