@@ -4,9 +4,9 @@ $config = require('config.php');
 
 $db = new Database($config['database']);
 
-$heading = 'Notes';
+$heading = 'Note';
 
-$notes = $db->query('select * from notes where user_id = 1')->fetchAll();
+$notes = $db->query('select * from notes where id = :id', ['id' => $_GET['id']])->fetchAll();
 
 // dd($notes);
 
