@@ -15,6 +15,7 @@
         </a>
       </li>
     <?php endforeach ?>
+    <!-- <?php dd($note) ?> -->
   </div>
 </main>
 

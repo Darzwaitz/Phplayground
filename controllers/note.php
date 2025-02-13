@@ -14,17 +14,14 @@ $note = $db->query(
 
         'id' => $_GET['id']
     ]
-)->fetch();
-// dd($note);
+)->findOrFail();
 
-
-if (! $note) {
-    abort();
-}
 
 if ($note['user_id'] != $currentUserId) {
     abort(Response::FORBIDDEN);
 }
+
+// dd($note[0]['body']);
 
 
 require 'views/note.view.php';

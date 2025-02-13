@@ -13,7 +13,7 @@
     </p>
 
     <p>
-      <?= $note['body'] ?>
+      <?= $note[0]['body'] ?>
     </p>
   </div>
 </main>
