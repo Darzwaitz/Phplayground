@@ -16,8 +16,10 @@ $note = $db->query(
     ]
 )->findOrFail();
 
+authorize($note['user_id'] != $currentUserId);
 
-if ($note['user_id'] != $currentUserId) {
+
+if ($note[0]['user_id'] != $currentUserId) {
     abort(Response::FORBIDDEN);
 }
 
