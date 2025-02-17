@@ -16,7 +16,7 @@ $note = $db->query(
     ]
 )->findOrFail();
 
-authorize($note['user_id'] != $currentUserId);
+authorize($note['user_id'] === $currentUserId);
 
 
 if ($note[0]['user_id'] != $currentUserId) {
