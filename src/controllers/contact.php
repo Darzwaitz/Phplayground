@@ -5,4 +5,4 @@
 $heading = 'Contact Us';
 
 
-require 'views/contact.view.php';
+require 'src/views/contact.view.php';

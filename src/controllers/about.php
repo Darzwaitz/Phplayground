@@ -5,4 +5,4 @@
 $heading = 'About';
 
 
-require 'views/about.view.php';
+require 'src/views/about.view.php';

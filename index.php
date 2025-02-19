@@ -1,27 +1,28 @@
 <?php
 
-require 'functions.php';
+require 'src/functions.php';
 
-require 'Database.php';
+require 'src/Database.php';
 
-require 'Response.php';
+require 'src/Response.php';
 
-require 'router.php';
+require 'src/router.php';
+
 
 
 // if ($_GET) {
 
-//     $id = $_GET['id'];
-//     $query = "SELECT * FROM `posts` where id = :id";
+// $id = $_GET['id'];
+// $query = "SELECT * FROM `posts` where id = :id";
 
-//     // :: is scope resolution operator
-//     $posts = $db->query($query, [':id' => $id])->fetchAll();
+// // :: is scope resolution operator
+// $posts = $db->query($query, [':id' => $id])->fetchAll();
 
-//     // dd($posts);
+// // dd($posts);
 
-//     foreach ($posts as $post) {
-//         echo "<li>" . $post['title'] . "</li>";
-//     }
+// foreach ($posts as $post) {
+// echo "<li>" . $post['title'] . "</li>";
+// }
 // } else {
-//     echo "<li>" . 'No posts available from query' . "</li>";
+// echo "<li>" . 'No posts available from query' . "</li>";
 // }

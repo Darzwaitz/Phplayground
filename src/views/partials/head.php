@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- npx @tailwindcss/cli -i main.css -o output.css --watch -->
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="src/css/output.css">
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Php doc</title>

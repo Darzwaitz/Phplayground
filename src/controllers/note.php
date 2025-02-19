@@ -1,7 +1,7 @@
 <?php
 
 
-$config = require('config.php');
+$config = require('src/config.php');
 
 $db = new Database($config['database']);
 
