@@ -5,7 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- npx @tailwindcss/cli -i main.css -o output.css --watch -->
+    <!-- npx @tailwindcss/cli -i src/css/main.css -o src/css/output.css --watch
+ -->
     <link rel="stylesheet" href="src/css/output.css">
 
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
