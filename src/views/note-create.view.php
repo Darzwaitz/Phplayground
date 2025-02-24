@@ -1,5 +1,5 @@
 <?php require('partials/head.php') ?>
-
+<link rel="stylesheet" href="../../src/css/output.css">
 <?php require('partials/nav.php') ?>
 
 <?php require('partials/header.php') ?>
@@ -32,7 +32,7 @@
               <p class="mt-3 text-sm/6 text-gray-600">Write a few sentences about yourself.</p>
             </div>
 
-            <div class="col-span-full">
+            <!-- <div class="col-span-full">
               <label for="photo" class="block text-sm/6 font-medium text-gray-900">Photo</label>
               <div class="mt-2 flex items-center gap-x-3">
                 <svg class="size-12 text-gray-300" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -40,7 +40,7 @@
                 </svg>
                 <button type="button" class="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 ring-1 shadow-xs ring-gray-300 ring-inset hover:bg-gray-50">Change</button>
               </div>
-            </div>
+            </div> -->
 
             <div class="col-span-full">
               <label for="cover-photo" class="block text-sm/6 font-medium text-gray-900">Cover photo</label>
