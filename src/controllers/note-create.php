@@ -1,6 +1,8 @@
 <?php
 
-$config = require('src/config.php');
+require 'src/Validator.php';
+
+$config = require 'src/config.php';
 
 $db = new Database($config['database']);
 
@@ -10,7 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // dd($_POST);
     $errors = [];
 
-    if (strlen($_POST['body']) === 0) {
+    // $validator = new Validator();
+
+    if (! Validator::string($_POST['body'], 1, 1000)) {
         $errors['body'] = 'A body is required';
     }
 
