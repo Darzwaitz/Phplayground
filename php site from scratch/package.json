@@ -1,0 +1,44 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.10",
+    "tailwindcss": "^4.0.10"
+  },
+  "name": "phplayground",
+  "description": "Practice code for Php, and building a WordPress like file directory and project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "detect-libc": "^1.0.3",
+    "enhanced-resolve": "^5.18.1",
+    "fill-range": "^7.1.1",
+    "braces": "^3.0.3",
+    "is-glob": "^4.0.3",
+    "graceful-fs": "^4.2.11",
+    "lightningcss": "^1.29.1",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "micromatch": "^4.0.8",
+    "picocolors": "^1.1.1",
+    "jiti": "^2.4.2",
+    "mri": "^1.2.0",
+    "lightningcss-win32-x64-msvc": "^1.29.1",
+    "node-addon-api": "^7.1.1",
+    "picomatch": "^2.3.1",
+    "tapable": "^2.2.1",
+    "to-regex-range": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i src/css/main.css -o src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darzwaitz/Phplayground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Darzwaitz/Phplayground/issues"
+  },
+  "homepage": "https://github.com/Darzwaitz/Phplayground#readme"
+}
