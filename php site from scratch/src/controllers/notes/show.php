@@ -26,4 +26,4 @@ if ($note[0]['user_id'] != $currentUserId) {
 // dd($note[0]['body']);
 
 
-require 'views/note.view.php';
+require 'views/notes/show.view.php';

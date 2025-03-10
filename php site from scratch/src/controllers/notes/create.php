@@ -30,4 +30,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 };
 
-require 'src/views/notes/note-create.view.php';
+require 'src/views/notes/create.view.php';

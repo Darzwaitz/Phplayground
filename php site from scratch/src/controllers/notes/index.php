@@ -10,5 +10,5 @@ $notes = $db->query('select * from notes')->get();
 
 // dd($notes);
 
-require 'src/views/notes/notes.view.php';
+require 'src/views/notes/index.view.php';
 // require 'views/note.view.php';
