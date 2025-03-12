@@ -1,9 +1,9 @@
 <?php
 return [
-    '/' => 'src/controllers/index.php',
-    '/about' => 'src/controllers/about.php',
-    '/notes' => 'src/controllers/notes/index.php',
-    '/note' => 'src/controllers/notes/show.php',
-    '/notes/create' => 'src/controllers/notes/create.php',
-    '/contact' => 'src/controllers/contact.php',
+    '/' => 'controllers/index.php',
+    '/about' => 'controllers/about.php',
+    '/notes' => 'controllers/notes/index.php',
+    '/note' => 'controllers/notes/show.php',
+    '/notes/create' => 'controllers/notes/create.php',
+    '/contact' => 'controllers/contact.php',
 ];
