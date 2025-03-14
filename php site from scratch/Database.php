@@ -48,5 +48,7 @@ class Database
         if (! $result) {
             abort();
         }
+
+        return $result;
     }
 }

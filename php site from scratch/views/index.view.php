@@ -4,7 +4,7 @@
 
 <?php require('partials/header.php') ?>
 
-<main>
+<main class="min-h-full">
   <p class="">
   <h1>Homez page</h1>
   </p>

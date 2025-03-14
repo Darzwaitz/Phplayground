@@ -1,3 +1,0 @@
-<header>
-    <?= $heading ?> page
-</header>

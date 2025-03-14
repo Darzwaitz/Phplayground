@@ -1,8 +1,8 @@
-<?php require('src/views/partials/head.php') ?>
+<?php require('views/partials/head.php') ?>
 
-<?php require('src/views/partials/nav.php') ?>
+<?php require('views/partials/nav.php') ?>
 
-<?php require('src/views/partials/header.php') ?>
+<?php require('views/partials/header.php') ?>
 
 
 
@@ -26,4 +26,4 @@
   </div>
 </main>
 
-<?php require('src/views/partials/footer.php') ?>
+<?php require('views/partials/footer.php') ?>

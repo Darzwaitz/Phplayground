@@ -13,4 +13,4 @@
     <title>Php doc</title>
 </head>
 
-<body>
+<body class="h-full">

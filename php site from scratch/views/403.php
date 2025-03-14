@@ -2,7 +2,6 @@
 
 <?php require('partials/nav.php') ?>
 
-<!-- <?php require('partials/header.php') ?> -->
 
 <main>
     <h1 class="text-2xl font-bold">UNATHORIZED!!</h1>

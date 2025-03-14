@@ -1,12 +1,12 @@
 <?php
 
-require 'src/functions.php';
+require 'functions.php';
 
-require 'src/Database.php';
+require 'Database.php';
 
-require 'src/Response.php';
+require 'Response.php';
 
-require 'src/router.php';
+require 'router.php';
 
 
 

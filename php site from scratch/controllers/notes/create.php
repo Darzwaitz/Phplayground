@@ -1,8 +1,9 @@
 <?php
 
-require 'src/Validator.php';
+require 'Validator.php';
 
-$config = require 'src/config.php';
+$config = require 'config.php';
+
 
 $db = new Database($config['database']);
 
@@ -30,4 +31,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 };
 
-require 'src/views/notes/create.view.php';
+require 'views/notes/create.view.php';
