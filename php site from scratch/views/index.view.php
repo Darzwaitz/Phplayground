@@ -6,7 +6,7 @@
 
 <main class="min-h-full">
   <p class="">
-  <h1>Homez page</h1>
+  <h1>Home page</h1>
   </p>
 </main>
 
