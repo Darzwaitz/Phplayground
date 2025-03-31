@@ -1,6 +1,6 @@
 <?php
 
-const BASE_PATH = __DIR__ . '\..\\';
+const BASE_PATH = __DIR__ . '/../';
 
 // var_dump(BASE_PATH);
 
